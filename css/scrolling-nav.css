@@ -3,10 +3,233 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
+
+/* re definitions
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.lead {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.tight {
+  margin-bottom: 0.3rem; /* 1rem is the default */
+  font-size: 1rem;
+}
+
+.navbar-brand {
+  font-weight: 400;
+}
+.nav-item {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+ /* custom
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.pub-left {
+  clear: both;
+  padding-bottom: 20px;
+  overflow: hidden;
+  width: 30%;
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+.pub-left-img {
+  max-width: 100%;
+  max-height: 100%;
+  /*padding-left: 15px;
+  padding-right: 15px;*/
+}
+
+.pub-right {
+  float: right;
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 70%;
+}
+
 header {
-  padding: 156px 0 100px;
+  /*display: flex;*/
+  /*padding: 10vh 0 10vh;
+  background-color: white;
+  background-position: top;*/
+  /*position:relative;*/
+  height:85vh;
+  min-height:400px;
+  background:
+  linear-gradient(to bottom, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 0)),
+  url("../img/greenland_tj_crouch_AS_crop.JPG") 50% / cover
+}
+
+.title-name {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 4.0rem;
+  color: black;
+  /*font-variant: small-caps;*/
+  /*text-align: left;*/
+  /*letter-spacing: 4px;*/
+  /*text-shadow: 1px 1px 13px black;*/
+}
+
+.title-description {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: black;
+}
+
+.resume {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+/* pdf */
+.fa-file {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  width: 30px;
+  text-align: left;
+}
+
+/* button mods */
+
+.btn {
+  color: black;
+  background-color: transparent;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0s ease-in-out;
+}
+
+.btn:hover {
+  color: orange;
+}
+
+.btn:focus, .btn.focus {
+  box-shadow: none;
+}
+
+.btn-primary {
+  color: black;
+  background-color: transparent;
+  border-color: black;
+}
+
+.btn-primary:hover {
+  color: orange;
+  background-color: transparent;
+  border-color: orange;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  color: black;
+  background-color: transparent;
+  border-color: black;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: black;
+  background-color: transparent;
+  border-color: black;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: black;
+  background-color: transparent;
+  border-color: black;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  color: black;
+  background-color: transparent;
+  border-color: black;
+  box-shadow: none;
 }
 
 section {
-  padding: 150px 0;
+  padding: 50px 0;
+  text-align: justify;
+}
+
+.offsetanchor {
+    display:block;
+    padding-top:calc(50px + max(30vh, 150px));
+    margin-top:min(-30vh, -150px);
+ }
+
+a {
+  color: #004e91;
+  font-weight: 400;
+}
+
+a:hover {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.navbar-dark .navbar-brand:hover {
+  color: orange;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: rgba(255, 255, 255, 1);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: orange;
+}
+
+/* email */
+.fa-envelope {
+  color: black;
+  /*background: white;
+  box-shadow: 0px 0px 6px black;*/
+}
+.fa-envelope:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+/* github */
+.fa-github {
+  color: black;
+  /*background: #a9aba9;
+  box-shadow: 0px 0px 6px black;*/
+}
+.fa-github:hover {
+  color: orange;
+  text-decoration: none;
+  /*background: #a9aba9;
+  box-shadow: 0px 0px 6px black;*/
+}
+
+/* scholar */
+.ai-google-scholar {
+  color: black;
+  text-decoration: none;
+}
+.ai-google-scholar:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+.bg-img {
+  background-image:
+  linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.1)),
+  url("../img/greenland_tj_crouch_AS_crop.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: top 0px left 50%;
 }

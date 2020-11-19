@@ -26,4 +26,9 @@
     offset: 56
   });
 
+  $(window).scroll(function(i){
+      var scrollVar = $(window).scrollTop();
+      $('.scrollfade').css({'opacity':( $(window).scrollTop() )/200});
+  });
+
 })(jQuery); // End of use strict

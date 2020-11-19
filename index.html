@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> -->
+
 <head>
 
   <meta charset="utf-8">
@@ -8,7 +11,22 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Scrolling Nav - Start Bootstrap Template</title>
+  <title>Thomas Stastny's Website</title>
+
+  <!-- Custom fonts for this template -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> -->
+  <!-- <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"> -->
+  <!-- <link href="/fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="/fontawesome/css/brands.css" rel="stylesheet">
+  <link href="/fontawesome/css/solid.css" rel="stylesheet"> -->
+  <!-- <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,7 +41,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+      <a class="navbar-brand js-scroll-trigger scrollfade" style="opacity:0" href="#page-top">Thomas Stastny</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -33,66 +51,128 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            <a class="nav-link js-scroll-trigger" href="#proj">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#pubs">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#teach">Teaching</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <header class="bg-primary text-white">
-    <div class="container text-center">
-      <h1>Welcome to Scrolling Nav</h1>
-      <p class="lead">A landing page template freshly redesigned for Bootstrap 4</p>
+  <header>
+    <div class="cover text-center" style="position:relative; top:max(10vh,60px);">
+      <h1 class="title-name">Thomas Stastny</h1>
+      <p class="title-description">Aerial-Robotics Researcher</p>
+      <a href="mailto:tstastny@ethz.ch" target="_blank" class="fa fa-envelope fa-2x" style="padding-left:10px;padding-right:10px;"></a>
+      <!-- <a href="https://www.linkedin.com/in/thomas-stastny" target="_blank" class="fa fa-linkedin"></a> -->
+      <a href="https://scholar.google.ch/citations?user=R5Fs1A4AAAAJ&hl=en" target="_blank" class="ai ai-google-scholar ai-2x" style="padding-left:10px;padding-right:10px;"></a>
+      <a href="https://github.com/tstastny" target="_blank" class="fa fa-github fa-2x" style="padding-left:10px;padding-right:10px;"></a>
     </div>
+    <!-- <div class="cover resume" style="position:relative; top:max(23vh,150px);"> -->
+      <!-- <a href="pdf/tstastny_resume_2020-11-18.pdf" target="_blank" class="btn btn-primary"><i class="fa fa-file fa-2x"></i>Resume</a> -->
+      <!-- <a href="pdf/tstastny_resume_2020-11-18.pdf" target="_blank" class="fa fa-file fa-2x">Resume</a> -->
+    <!-- </div> -->
   </header>
 
-  <section id="about">
+  <section id="about" class="offsetanchor">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>About this page</h2>
-          <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
-          <ul>
-            <li>Clickable nav links that smooth scroll to page sections</li>
-            <li>Responsive behavior when clicking nav links perfect for a one page website</li>
-            <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
-            <li>Minimal custom CSS so you are free to explore your own unique design options</li>
-          </ul>
+          <h2>About me..</h2>
+          <p>Hi, I'm TJ. I'm currently a Senior Researcher in the <a href="http://www.asl.ethz.ch" target="_blank">Autonomous Systems Lab</a> (ASL) at <a href="http://www.ethz.ch" target="_blank">ETH Z&uuml;rch</a>, Switzerland, where I also completed my PhD in Robotics (May, 2020) with Prof. Roland Siegwart. My work at ASL spans design, system identification, state estimation, control, and planning for fixed-wing and hybrid vertical take-off and landing (VTOL) aerial robots operating in unstructured environments (the real world!). A large amount of my PhD work was geared towards developing autonomous behaviors for the <em>endurance world record</em> holding <a href="http://atlantiksolar.ethz.ch/" target="_blank">AtlantikSolar UAV</a>.</p>
+          <p>Prior to my PhD, I completed a Bachelors and Masters of Science in Aerospace Engineering at the <a href="http://ae.engr.ku.edu/" target="_blank">University of Kansas</a>, USA. My Masters work was funded by the NSF <a href="http://cresis.ku.edu/" target="_blank">Center for Remote Sensing of Ice Sheets</a> (CReSIS), where I worked on the development of radar-integrated unmanned aerial vehicles (UAVs) used for measuring the thickness of ice sheets in Antarctica. During my Bachelors degree, I also spent one semester abroad taking courses within the Systems &amp; Control Masters program at <a href="http://www.tudeflt.nl" target="_blank">TU Delft</a>, the Netherlands.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="services" class="bg-light">
+  <section id="proj" class="bg-light">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>Services we offer</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+          <h2>Selected Projects</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="contact">
+  <section id="pubs">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>Contact us</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+          <h2>Publications</h2>
+          <p>See publication metrics on <a href="https://scholar.google.ch/citations?user=R5Fs1A4AAAAJ&hl=en" target="_blank">Google Scholar</a>.</p>
+          <!-- DISSERTATION -->
+          <h4>Disseration</h4>
+          <table style="width:100%;"><col style="width:15%;"><col style="width:2%"><col style="width:83%;">
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top"><img src="img/thesis_cover_v2_fixed_dimensions_frontonly.JPG" class="pub-left-img" style="height:150px"></td>
+              <td></td>
+              <td style="vertical-align:top">
+                <p class="tight"><u>T. Stastny</u>. &quot;<b>Low-Altitude Control and Local Re-Planning Strategies for Small Fixed-Wing UAVs</b>&quot;. <em>Doctoral Thesis, ETH Z&uuml;rich</em>. 2020.</p>
+                <p><a href="pdf/tstastny_phd_thesis_wcover.pdf" target="_blank"><i class="fa fa-file" style="margin-right:-5px;"></i>PDF</a> | <a href="https://www.research-collection.ethz.ch/handle/20.500.11850/449759" target="_blank">ETH Research Collection</a></p>
+              </td>
+            </tr>
+          </table>
+          <!-- JOURNAL PAPERS -->
+          <p></p><p></p>
+          <h4>Journal Papers</h4>
+          <table style="width:100%;"><!--<col style="width:5%;"><col style="width:95%;">-->
+            <!-- Next entry -->
+            <tr>
+              <!-- <td></td>
+              <td style="vertical-align:top"> -->
+                <p class="tight">D. Malyuta, C. Brommer, D. Hentzen, <u>T. Stastny</u>, R. Siegwart, and R. Brockers. &quot;<b>Long-duration Fully Autonomous Operation of Rotorcraft Unmanned Aerial Systems for Remote-sensing Data Acquisition</b>&quot;. <em>Journal of Field Robotics (JFR)</em>. 2020.</p>
+                <p></p>
+                <!-- <p class="tight"><a href="pdf/tstastny_phd_thesis_wcover.pdf" target="_blank"><i class="fa fa-file" style="margin-right:-5px;"></i>PDF</a> | <a href="https://www.research-collection.ethz.ch/handle/20.500.11850/449759" target="_blank">ETH Research Collection</a></p> -->
+              <!-- </td> -->
+            </tr>
+            <!-- Next entry -->
+            <tr>
+              <!-- <td></td>
+              <td style="vertical-align:top"> -->
+                <p class="tight">D. Malyuta, C. Brommer, D. Hentzen, <u>T. Stastny</u>, R. Siegwart, and R. Brockers. &quot;<b>Long-duration Fully Autonomous Operation of Rotorcraft Unmanned Aerial Systems for Remote-sensing Data Acquisition</b>&quot;. <em>Journal of Field Robotics (JFR)</em>. 2020.</p>
+                <p></p>
+                <!-- <p class="tight"><a href="pdf/tstastny_phd_thesis_wcover.pdf" target="_blank"><i class="fa fa-file" style="margin-right:-5px;"></i>PDF</a> | <a href="https://www.research-collection.ethz.ch/handle/20.500.11850/449759" target="_blank">ETH Research Collection</a></p> -->
+              <!-- </td> -->
+            </tr>
+            <!-- Next entry -->
+            <tr>
+              <!-- <td></td>
+              <td style="vertical-align:top"> -->
+                <p class="tight">D. Malyuta, C. Brommer, D. Hentzen, <u>T. Stastny</u>, R. Siegwart, and R. Brockers. &quot;<b>Long-duration Fully Autonomous Operation of Rotorcraft Unmanned Aerial Systems for Remote-sensing Data Acquisition</b>&quot;. <em>Journal of Field Robotics (JFR)</em>. 2020.</p>
+                <p></p>
+                <!-- <p class="tight"><a href="pdf/tstastny_phd_thesis_wcover.pdf" target="_blank"><i class="fa fa-file" style="margin-right:-5px;"></i>PDF</a> | <a href="https://www.research-collection.ethz.ch/handle/20.500.11850/449759" target="_blank">ETH Research Collection</a></p> -->
+              <!-- </td> -->
+            </tr>
+          </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="teach" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Teaching &amp; Supervision</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
         </div>
       </div>
     </div>
   </section>
+
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
+      <p class="m-0 text-center text-white">Copyright &copy; Thomas Stastny 2020</p>
     </div>
     <!-- /.container -->
   </footer>
