@@ -79,12 +79,12 @@
     <!-- </div> -->
   </header>
 
-  <section id="about" class="offsetanchor">
+  <section id="about" class="offset-anchor-about">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>About me..</h2>
-          <p>Hi, I'm TJ. I'm currently a Senior Researcher in the <a href="http://www.asl.ethz.ch" target="_blank">Autonomous Systems Lab</a> (ASL) at <a href="http://www.ethz.ch" target="_blank">ETH Z&uuml;rch</a>, Switzerland, where I also completed my PhD in Robotics (May, 2020) with Prof. Roland Siegwart. My work at ASL spans design, system identification, state estimation, control, and planning for fixed-wing and hybrid vertical take-off and landing (VTOL) aerial robots operating in unstructured environments (the real world!). A large amount of my PhD work was geared towards developing autonomous behaviors for the <em>endurance world record</em> holding <a href="http://atlantiksolar.ethz.ch/" target="_blank">AtlantikSolar UAV</a>.</p>
+          <h2><i class="fa fa-user-circle-o fa-1x"></i> About Me</h2>
+          <p>Hi, I'm TJ. I'm currently a Senior Researcher in the <a href="http://www.asl.ethz.ch" target="_blank">Autonomous Systems Lab</a> (ASL) at <a href="http://www.ethz.ch" target="_blank">ETH Z&uuml;rch</a>, Switzerland, where I also completed my PhD in Robotics (May, 2020) with Prof. Roland Siegwart. My work at ASL spans design, system identification, state estimation, control, and planning for fixed-wing and hybrid vertical take-off and landing (VTOL) aerial robots operating in unstructured environments (the real world!). A significant porition of my time as a PhD student was additionally geared towards developing autonomous behaviors for the <em>endurance world record</em> holding <a href="http://atlantiksolar.ethz.ch/" target="_blank">AtlantikSolar UAV</a>.</p>
           <p>Prior to my PhD, I completed a Bachelors and Masters of Science in Aerospace Engineering at the <a href="http://ae.engr.ku.edu/" target="_blank">University of Kansas</a>, USA. My Masters work was funded by the NSF <a href="http://cresis.ku.edu/" target="_blank">Center for Remote Sensing of Ice Sheets</a> (CReSIS), where I worked on the development of radar-integrated unmanned aerial vehicles (UAVs) used for measuring the thickness of ice sheets in Antarctica. During my Bachelors degree, I also spent one semester abroad taking courses within the Systems &amp; Control Masters program at <a href="http://www.tudeflt.nl" target="_blank">TU Delft</a>, the Netherlands.</p>
         </div>
       </div>
@@ -95,64 +95,494 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>Selected Projects</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+          <h2><i class="fa fa-plane fa-1x"></i> Selected Projects</h2>
+          <p class="tight">@: <a class="js-scroll-trigger" href="#proj-ASL">ASL, ETH Z&uuml;rich</a> | <a class="js-scroll-trigger" href="#proj-KU">CReSIS, University of Kansas</a></p>
+
+          <hr />
+          <h3 style="text-align:left" id="proj-ASL">Autonomous Systems Lab (ASL), ETH Z&uuml;rich</h3>
+
+          <!-- Next entry -->
+          <hr />
+          <h4>Drop &amp; Recovery Drones</h4>
+          <p class="tight">We developed hardware and algorithms for autonomous, beyond visual line-of-sight (BVLOS), drone-based deployment of low-power, long-term GNSS monitoring stations on the <a href="https://en.wikipedia.org/wiki/Gorner_Glacier" target="_blank">Gorner Glacier</a>, Switzerland, for multi-point, in situ ice motion recording. Funding from <a href="https://www.ar.admin.ch/en/armasuisse-wissenschaft-und-technologie-w-t/home.html" target="blank">armasuisse S+T</a> and the <a href="https://swisspolar.ch/" target="blank">Swiss Polar Institute (SPI)</a>.</p>
+          <div class="video-container"><iframe class="video" src="https://www.youtube.com/embed/1tvYj1aGEUc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+          <!-- Next entry -->
+          <hr />
+          <h4>Sun2Ice: Monitoring Glaciers with Solar-Powered UAVs</h4>
+          <p class="tight">Together with glaciologists from the <a href="https://vaw.ethz.ch/" target="_blank">Laboratory of Hydraulics, Hydrology, and Glaciology</a> at ETH Z&uuml;rich, I organized and lead a glacier monitoring field campaign to <a href="https://en.wikipedia.org/wiki/Qaanaaq" target="_blank">Qaanaaq, Greenland</a> (77&deg;N!), resulting in the <em>first-ever</em> autonomous, BVLOS, solar-powered flights of a UAV in a polar region. Funded by the <a href="https://www.ethz-foundation.ch/" target="_blank">ETH Foundation</a>.</p>
+          <div class="video-container"><iframe class="video" src="https://www.youtube.com/embed/wyS6W1t_ryQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+          <!-- Next entry -->
+          <hr />
+          <h4>AtlantikSolar: A Perpetual Flight Capable Solar-Powered UAV</h4>
+          <p class="tight">I worked with the Fixed-Wing Team at the Autonomous Systems Lab, ETH Z&uuml;rich, conducting performance optimization and developing automatic take-off, landing, and cruise control design for the AtlantikSolar UAV, resulting in an <b>81.5 hour endurance world record</b> solar-powered flight for all aircraft below 50kg (<a href="http://www.atlantiksolar.ethz.ch/index.html%3Fp=670.html" target="_blank">blog</a>, <a class="js-scroll-trigger" href="#paper-AS1">paper</a>) and 26 hour, fully autonomous, search and rescue payload equipped flight with passive thermal updraft detection and exploitation (<a href="http://www.atlantiksolar.ethz.ch/index.html%3Fp=931.html" target="_blank">blog</a>, <a class="js-scroll-trigger" href="#paper-AS2">paper</a>).</p>
+          <table style="width:100%;"><col style="width:50%;"><col style="width:50%">
+            <tr>
+              <td style="vertical-align:top"><div class="video-container"><iframe class="video" src="https://www.youtube.com/embed/8m4_NpTQn0E" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></td>
+              <td style="vertical-align:top">  <div class="video-container"><iframe class="video" src="https://www.youtube.com/embed/8m76Mx9m2nM" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></td>
+            </tr>
+          </table>
+
+          <!-- Next entry -->
+          <hr />
+          <h4>Adventura AtlantikSolar@Brazil</h4>
+          <p class="tight">Worked with SIPAM (Brazilian Amazon Protection Agency) on a real-life disaster relief support mission over the <b>Brazilian Amazon</b>, using the AtlinkSolar UAV. A boat carrying 5000 cattle sunk in the Bacarena Port of the Rio Par&aacute;, Bel&eacute;m, Brazil, further spilling 740 tons oil. This was a suprise mission during the <a href="http://www.swissnexbrazil.org/atlantiksolar/" target="_blank">Adventura AtlantikSolar@Brazil</a> project, organized together with Swissnex, Brazil.</p>
+          <table style="width:100%;"><col style="width:50%;"><col style="width:50%">
+            <tr>
+              <td style="vertical-align:top"><div class="video-container"><iframe class="video" src="vid/Brazil-Launch-Cut-1.webm" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></td>
+              <td style="vertical-align:top">  <div class="video-container"><iframe class="video" src="vid/Oilspillmapping-1.webm" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></td>
+            </tr>
+          </table>
+
+          <!-- Next entry -->
+          <hr />
+          <h4>Flying Backwards(..?!)</h4>
+          <p class="tight">Small, long-range, fixed-wing UAVs executing surveying, mapping, or searching missions will inevitably encounter strong and turbulent wind fields, at times reaching to, or even <em>exceeding</em> the aircraft's nominal airspeed. I developed efficient (energetically <em>and</em> computationally) wind-aware guidance logic to allow safe flight in these conditions. (<a class="js-scroll-trigger" href="#paper-windy2019">paper</a>,<a href="#paper-phdthesis">dissertation</a>)</p>
+          <div class="video-container"><iframe class="video" src="https://www.youtube.com/embed/oM690LO29kM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+          <!-- Next entry -->
+          <hr />
+          <h4>VTOL Tilt-Wing UAV Control</h4>
+          <p class="tight">We developed mathematical modeling and controller design for an over-actuated Vertical Take-off and Landing (VTOL) tilt-wing Unmanned Aerial Vehicle (UAV). Performance of the controller is demonstrated in hovering, transitioning, and cruising flight experiments. (<a class="js-scroll-trigger" href="#paper-tiltwing">paper</a>)</p>
+          <div class="video-container"><iframe class="video" src="https://www.youtube.com/embed/pSXEnHUY2_4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+          <!-- Next entry -->
+          <hr />
+          <h4>Nonlinear MPC for Fixed-Wing UAVs</h4>
+          <p class="tight"> Part of my PhD work involved the development of a long-horizon nonlinear model predictive controller (NMPC) for fixed-wing UAVs, considering path following objectives, stall prevention, actuator fault tolerance, wind-awareness, and explicit vision-based terrain feedback. (<a href="#paper-NMPC1">paper</a>,<a href="#paper-phdthesis">dissertation</a>)</p>
+          <table style="width:100%;"><col style="width:33.3%;"><col style="width:33.3%"><col style="width:33.3%">
+            <tr>
+              <td style="vertical-align:top"><div class="video-container"><iframe class="video" src="https://www.youtube.com/embed/ncoDvWys1g8" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></td>
+              <td style="vertical-align:top">  <div class="video-container"><iframe class="video" src="https://www.youtube.com/embed/kcjzv2GjIsg" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></td>
+              <td style="vertical-align:top">  <div class="video-container"><iframe class="video" src="https://www.youtube.com/embed/ZYWOdgeGmjQ" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></td>
+            </tr>
+          </table>
+
+          <!-- Next entry -->
+          <hr />
+          <h4>SenseSoar2: A Solar-Powered UAV for Precision Agriculture</h4>
+          <p class="tight"> I worked on an ESA funded collaboration between ASL and <a href="http://www.gamaya.com" target="_blank">GAMAYA</a>, the project <a href="https://business.esa.int/projects/solar3" target="_blank">SOLAR<sup>3</sup></a> led to the development of novel UAV platform, SenseSoar2, equipped with a hyper spectral imaging (HSI) camera for long-range precision farming flights. The SenseSoar2 system has been successfully operated in Ukraine by an internal national drone operator during the 2018-2019 years. SenseSoar2 was additionally utiliized in collaboration with Swiss industry partners Swisscom, <a href="https://www.involi.com/" target="blank">INVOLI</a>, and <a href="https://www.v2sky.ch/" target="blank">v2sky</a>, where we were able to demonstrate the <em>first</em> networked, BVLOS flight of a UAV in Switzerland, over Lake Neuch&acirc;tel.</p>
+          <table style="width:100%;"><col style="width:50%;"><col style="width:50%">
+            <tr>
+              <td style="vertical-align:top"><div class="video-container"><iframe class="video" src="https://www.youtube.com/embed/Gt58dxO0ORQ" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></td>
+              <td style="vertical-align:top">  <div class="video-container"><iframe class="video" src="https://www.youtube.com/embed/ks-TiJP3dxs" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></td>
+            </tr>
+          </table>
+
+          <!-- Next entry -->
+          <hr />
+          <h4>SHERPA: Search &amp; Rescue Robots</h4>
+          <p class="tight">I was a core researcher on the EU FP7 funded SHERPA project; a large-scale research project for mixed ground and aerial robotic platforms to support search and rescue activities in real-world hostile environments such as an alpine scenario. Our contribution included the demonstration of collaborative heterogeneous aerial deployments combining fixed-wing and R-MAX helicopter platforms for distributed environmental mapping and missing person identification. (<a class="js-scroll-trigger" href="#paper-multiaircraft1">paper1</a>,<a class="js-scroll-trigger" href="#paper-multiaircraft2">paper1</a>).</p>
+          <div class="video-container"><iframe class="video" src="https://www.euronews.com/embed/332795" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+          <hr />
+          <h3 style="text-align:left" id="proj-KU">Center for Remote Sensing of Ice Sheets (CReSIS), University of Kansas, USA</h3>
+
+          <!-- Next entry -->
+          <hr />
+          <h4>UAV-Based Sounding of Sub-Glacial Bedrock in Antarctica</h4>
+          <p class="tight">I embarked on an <b>8-week deployment</b> with the University of Kansas' Automatic Flight Systems team to <a href="https://en.wikipedia.org/wiki/Lake_Whillans" target="_blank">Lake Whillans Glacier, Anatarcica</a> resulting in <em>first-ever</em> autonomous glacial bed-rock sounding via a UAV. More info <a href="https://cresis.ku.edu/content/research/field-programs/antarctica#2013" target="_blank">here</a>.</p><!-- Funded by the NSF <a href="https://cresis.ku.edu/" target="_blank">Center for Remote Sensing of Ice Sheets (CReSIS)</a>.</p> -->
+          <table style="width:100%;"><col style="width:50%;"><col style="width:50%">
+            <tr>
+              <td style="vertical-align:top"><a href="img/antarctica_g1x_inair.JPG" target="_blank"><img class="tile-img" src="img/antarctica_g1x_inair.JPG" style="width:100%"></a></td>
+              <td style="vertical-align:top"><a href="img/antarctica_open_drone.png" target="_blank"><img class="tile-img" src="img/antarctica_open_drone.png" style="width:100%"></a></td>
+            </tr>
+            <tr>
+              <td style="vertical-align:top"><a href="img/SLW_Camp-101.JPG" target="_blank"><img class="tile-img" src="img/SLW_Camp-101.JPG" style="width:100%"></a></td>
+              <td style="vertical-align:top"><a href="img/antarctica_two_planes.JPG" target="_blank"><img class="tile-img" src="img/antarctica_two_planes.JPG" style="width:100%"></a></td>
+            </tr>
+          </table>
+
+          <!-- Next entry -->
+          <hr />
+          <h4>Multi-Agent Avoidance and Formation Control for Fixed-Wing UAVs</h4>
+          <p class="tight"> During my time as a Masters graduate research assistant in the University of Kansas Aerospace Dept., I conducted research on control and planning for fixed-wing UAVs including multi-agent avoidance and formation strategies (<a class="js-scroll-trigger" href="#paper-MPF1">paper1</a>, <a class="js-scroll-trigger" href="#paper-MPF2">paper2</a>).</p>
+          <table style="width:100%;"><col style="width:33.3%;"><col style="width:33.3%"><col style="width:33.3%">
+            <tr>
+              <td style="vertical-align:top"><div class="video-container"><iframe class="video" src="vid/Citysimanimation3-1.webm" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></td>
+              <td style="vertical-align:top">  <div class="video-container"><iframe class="video" src="vid/Robust3D-1.webm" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></td>
+              <td style="vertical-align:top">  <div class="video-container"><iframe class="video" src="vid/FormationWind-1.webm" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></td>
+            </tr>
+          </table>
+
         </div>
       </div>
     </div>
   </section>
 
+  <!-- PUBLICATIONS / / / / / / / / / / / / / / / / / / / / / / / / / / / / /-->
   <section id="pubs">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>Publications</h2>
+          <h2><i class="fa fa-book fa-1x"></i> Publications</h2>
           <p>See publication metrics on <a href="https://scholar.google.ch/citations?user=R5Fs1A4AAAAJ&hl=en" target="_blank">Google Scholar</a>.</p>
+
           <!-- DISSERTATION -->
+          <hr />
           <h4>Disseration</h4>
-          <table style="width:100%;"><col style="width:15%;"><col style="width:2%"><col style="width:83%;">
+
+          <table class="table-margin" style="width:100%;"><col style="width:15%;"><col style="width:2%"><col style="width:83%;">
             <!-- Next entry -->
             <tr>
               <td style="vertical-align:top"><img src="img/thesis_cover_v2_fixed_dimensions_frontonly.JPG" class="pub-left-img" style="height:150px"></td>
               <td></td>
               <td style="vertical-align:top">
                 <p class="tight"><u>T. Stastny</u>. &quot;<b>Low-Altitude Control and Local Re-Planning Strategies for Small Fixed-Wing UAVs</b>&quot;. <em>Doctoral Thesis, ETH Z&uuml;rich</em>. 2020.</p>
-                <p><a href="pdf/tstastny_phd_thesis_wcover.pdf" target="_blank"><i class="fa fa-file" style="margin-right:-5px;"></i>PDF</a> | <a href="https://www.research-collection.ethz.ch/handle/20.500.11850/449759" target="_blank">ETH Research Collection</a></p>
+                <p><a href="pdf/tstastny_phd_thesis_wcover.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> pdf</a> | <a href="https://www.research-collection.ethz.ch/handle/20.500.11850/449759" target="_blank">ETH Research Collection</a></p>
               </td>
             </tr>
           </table>
+
           <!-- JOURNAL PAPERS -->
-          <p></p><p></p>
+          <hr />
           <h4>Journal Papers</h4>
-          <table style="width:100%;"><!--<col style="width:5%;"><col style="width:95%;">-->
+
+          <table class="table-margin" style="width:100%;"><col style="width:7%;"><col style="width:90%;">
+
             <!-- Next entry -->
             <tr>
-              <!-- <td></td>
-              <td style="vertical-align:top"> -->
-                <p class="tight">D. Malyuta, C. Brommer, D. Hentzen, <u>T. Stastny</u>, R. Siegwart, and R. Brockers. &quot;<b>Long-duration Fully Autonomous Operation of Rotorcraft Unmanned Aerial Systems for Remote-sensing Data Acquisition</b>&quot;. <em>Journal of Field Robotics (JFR)</em>. 2020.</p>
-                <p></p>
-                <!-- <p class="tight"><a href="pdf/tstastny_phd_thesis_wcover.pdf" target="_blank"><i class="fa fa-file" style="margin-right:-5px;"></i>PDF</a> | <a href="https://www.research-collection.ethz.ch/handle/20.500.11850/449759" target="_blank">ETH Research Collection</a></p> -->
-              <!-- </td> -->
+              <td style="vertical-align:top">
+                <p>2020</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">D. Malyuta, C. Brommer, D. Hentzen, <u>T. Stastny</u>, R. Siegwart, and R. Brockers. &quot;<b>Long-duration Fully Autonomous Operation of Rotorcraft Unmanned Aerial Systems for Remote-sensing Data Acquisition</b>&quot;. <em>Journal of Field Robotics (JFR)</em>. | <a href="https://arxiv.org/abs/1908.06381" target="_blank"><i class="ai ai-arxiv"></i> arxiv</a></p>
+                <!-- <p class="tight"><a href="https://arxiv.org/abs/1908.06381" target="_blank"><i class="ai ai-arxiv"></i> arXiv</a></p> -->
+              </td>
             </tr>
+
+            <!-- Next entry -->
+            <tr id="#paper-tiltwing">
+              <td style="vertical-align:top">
+                <p>2019</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">D. Rohr, <u>T. Stastny</u>, S. Verling, and R. Siegwart. &quot;<b>Attitude and Cruise Control of a VTOL Tiltwing UAV</b>&quot;. <em>IEEE Robotics and Automation Letters (RA-L)</em>. | <a href="https://arxiv.org/abs/1903.10623" target="_blank"><i class="ai ai-arxiv"></i> arxiv</a> | <a href="https://youtu.be/pSXEnHUY2_4" target="_blank"><i class="fa fa-youtube"></i> video</a></p>
+                <!-- <p class="tight"><a href="https://arxiv.org/abs/1903.10623" target="_blank"><i class="ai ai-arxiv"></i> arXiv</a> | <a href="https://youtu.be/pSXEnHUY2_4" target="_blank"><i class="fa fa-youtube"></i> Video</a></p> -->
+              </td>
+            </tr>
+
             <!-- Next entry -->
             <tr>
-              <!-- <td></td>
-              <td style="vertical-align:top"> -->
-                <p class="tight">D. Malyuta, C. Brommer, D. Hentzen, <u>T. Stastny</u>, R. Siegwart, and R. Brockers. &quot;<b>Long-duration Fully Autonomous Operation of Rotorcraft Unmanned Aerial Systems for Remote-sensing Data Acquisition</b>&quot;. <em>Journal of Field Robotics (JFR)</em>. 2020.</p>
-                <p></p>
-                <!-- <p class="tight"><a href="pdf/tstastny_phd_thesis_wcover.pdf" target="_blank"><i class="fa fa-file" style="margin-right:-5px;"></i>PDF</a> | <a href="https://www.research-collection.ethz.ch/handle/20.500.11850/449759" target="_blank">ETH Research Collection</a></p> -->
-              <!-- </td> -->
+              <td style="vertical-align:top">
+                <p>2018</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">T. Hinzmann, <u>T. Stastny</u>, C. Cadena, R. Siegwart, and I. Gilitschenski. &quot;<b>Free LSD: Prior-free Visual Landing Site Detection for Autonomous Planes</b>&quot;. <em>IEEE Robotics and Automation Letters (RA-L)</em>. | <a href="https://arxiv.org/abs/1802.09043" target="_blank"><i class="ai ai-arxiv"></i> arxiv</a> | <a href="https://youtu.be/SOpYirBwHtQ" target="_blank"><i class="fa fa-youtube"></i> video</a></p>
+              </td>
             </tr>
+
+            <!-- Next entry -->
+            <tr id="#paper-AS2">
+              <td style="vertical-align:top">
+                <p>2018</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">P. Oettershagen, <u>T. Stastny</u>, T. Hinzmann, K. Rudin, T. Mantel, A. Melzer, B. Wawrzacz, G. Hitz, and R. Siegwart. &quot;<b>Robotic Technologies for Solar-powered UAVs: Fully Autonomous Updraft-aware Aerial Sensing for Multiday Search-and-rescue Missions</b>&quot;. <em>Journal of Field Robotics (JFR)</em>. | <a href="https://onlinelibrary.wiley.com/doi/10.1002/rob.21765" target="_blank">publisher</a> | <a href="https://youtu.be/SOpYirBwHtQ" target="_blank"><i class="fa fa-youtube"></i> video</a></p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr id="#paper-AS1">
+              <td style="vertical-align:top">
+                <p>2017</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">P. Oettershagen, A. Melzer, Mantel, K. Rudin, <u>T. Stastny</u>, B. Wawrzacz, T. Hinzmann, S. Leutenegger, K. Alexis, and R. Siegwart. &quot;<b>Design of Small Hand-launched Solar-powered UAVs: From Concept Study to a Multi-day World Endurance Record Flight</b>&quot;. <em>Journal of Field Robotics (JFR)</em>. | <a href="https://onlinelibrary.wiley.com/doi/10.1002/rob.21717" target="_blank">publisher</a> | <a href="https://youtu.be/8m4_NpTQn0E" target="_blank"><i class="fa fa-youtube"></i> video</a></p>
+              </td>
+            </tr>
+
             <!-- Next entry -->
             <tr>
-              <!-- <td></td>
-              <td style="vertical-align:top"> -->
-                <p class="tight">D. Malyuta, C. Brommer, D. Hentzen, <u>T. Stastny</u>, R. Siegwart, and R. Brockers. &quot;<b>Long-duration Fully Autonomous Operation of Rotorcraft Unmanned Aerial Systems for Remote-sensing Data Acquisition</b>&quot;. <em>Journal of Field Robotics (JFR)</em>. 2020.</p>
-                <p></p>
-                <!-- <p class="tight"><a href="pdf/tstastny_phd_thesis_wcover.pdf" target="_blank"><i class="fa fa-file" style="margin-right:-5px;"></i>PDF</a> | <a href="https://www.research-collection.ethz.ch/handle/20.500.11850/449759" target="_blank">ETH Research Collection</a></p> -->
-              <!-- </td> -->
+              <td style="vertical-align:top">
+                <p>2015</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight"><u>T. Stastny</u>, G. Garcia, and S. Keshmiri. &quot;<b>Collision and Obstacle Avoidance in Unmanned Aerial Systems Using Morphing Potential Field Navigation and Nonlinear Model Predictive Control</b>&quot;. <em>Journal of Dynamic Systems, Measurement, and Control</em>. | <a href="https://asmedigitalcollection.asme.org/dynamicsystems/article-abstract/137/1/014503/473592/Collision-and-Obstacle-Avoidance-in-Unmanned" target="_blank">publisher</a> | <a href="vid/Citysimanimation3-1.webm" target="_blank"><i class="fa fa-film"></i> video</a></p>
+              </td>
             </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p>2015</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">G. Garcia, S. Keshmiri, and <u>T. Stastny</u>. &quot;<b>Nonlinear Model Predictive Controller Robustness Extension for Unmanned Aircraft</b>&quot;. <em>International Journal of Intelligent Unmanned Systems</em>. | <a href="https://www.emerald.com/insight/content/doi/10.1108/IJIUS-01-2015-0002/full/html" target="_blank">publisher</a></p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p>2014</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">G. Garcia, S. Keshmiri, and <u>T. Stastny</u>. &quot;<b>Robust and Adaptive Nonlinear Model Predictive Controller for Unsteady and Highly Nonlinear Unmanned Aircraft</b>&quot;. <em>IEEE Transactions on Control Systems Technology</em>. | <a href="https://ieeexplore.ieee.org/document/6994270/" target="_blank">publisher</a></p>
+              </td>
+            </tr>
+
           </table>
+
+          <!-- CONFERENCE PAPERS -->
+
+          <hr />
+          <h4>Peer-Reviewed Conference Papers</h4>
+
+          <table class="table-margin" style="width:100%;"><col style="width:7%;"><col style="width:90%;">
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p>2021</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">C. Olsson, S. Verling, <u>T. Stastny</u>, and R. Siegwart. &quot;<b>Full Envelope System Identification of a VTOL Tailsitter UAV</b>&quot;. <em>AIAA Guidance, Navigation, and Control (GNC) Conference</em>. <em>Accepted for publication</em>.</p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr  id="paper-varsweep">
+              <td style="vertical-align:top">
+                <p>2020</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">M. Harms, N. Kaufmann, F. Rockenbauer, N. Lawrance, <u>T. Stastny</u>, and R. Siegwart. &quot;<b>Differential Sweep Attitude Control for Swept Wing UAVs</b>&quot;. <em>International Conference on Unmanned Aircraft Systems (ICUAS)</em>. | <a href="https://ieeexplore.ieee.org/document/9214033" target="_blank">publisher</a></p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr  id="paper-windy2019">
+              <td style="vertical-align:top">
+                <p>2019</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight"><u>T. Stastny</u> and R. Siegwart. &quot;<b>On Flying Backwards: Preventing Run-away of Small, Low-speed, Fixed-wing UAVs in Strong Winds</b>&quot;. <em>IEEE International Conference on Intelligent Robots and Systems (IROS)</em>. | <a href="https://arxiv.org/abs/1908.01381" target="_blank"><i class="ai ai-arxiv"></i> arxiv</a> | <a href="https://youtu.be/oM690LO29kM" target="_blank"><i class="fa fa-youtube"></i> video</a></p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p>2019</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">D. Hentzen, <u>T. Stastny</u>, R. Siegwart, and R. Brockers. &quot;<b>Disturbance Estimation and Rejection for High-Precision Multirotor Position Control</b>&quot;. <em>IEEE International Conference on Intelligent Robots and Systems (IROS)</em>. | <a href="https://arxiv.org/abs/1908.03166" target="_blank"><i class="ai ai-arxiv"></i> arxiv</a> | <a href="https://youtu.be/-1PvZ5YBIuw" target="_blank"><i class="fa fa-youtube"></i> video</a></p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p>2019</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight"><u>T. Stastny</u>, E. Ahbe, M. Dangel, and R. Siegwart. &quot;<b>Locally Power-optimal Nonlinear Model Predictive Control for Fixed-wing Airborne Wind Energy</b>&quot;. <em>American Control Conference (ACC)</em>. | <a href="https://ieeexplore.ieee.org/document/8814383/" target="_blank">publisher</a></p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p>2019</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">S. Fuhrer, S. Verling, <u>T. Stastny</u>, and R. Siegwart. &quot;<b>Fault-tolerant Flight Control of a VTOL Tailsitter UAV</b>&quot;. <em>IEEE International Conference on Robotics and Automation (ICRA)</em>. | <a href="https://ieeexplore.ieee.org/document/8793467" target="_blank">publisher</a></p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p>2018</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">J. Lee, T. Muskardin, C. Pacz, P. Oettershagen, <u>T. Stastny</u>, I. Sa, R. Siegwart, and K. Kondak. &quot;<b>Towards Autonomous Stratospheric Flight: A Generic Global System Identification Framework for Fixed-Wing Platforms</b>&quot;. <em>IEEE International Conference on Intelligent Robots and Systems (IROS)</em>. | <a href="https://ieeexplore.ieee.org/document/8594126" target="_blank">publisher</a></p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p>2018</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight"><u>T. Stastny</u> and R. Siegwart. &quot;<b>Nonlinear Model Predictive Guidance for Fixed-wing UAVs Using Identified Control Augmented Dynamics</b>&quot;. <em>International Conference on Unmanned Aircraft Systems (ICUAS)</em>. | <a href="https://arxiv.org/abs/1802.02624" target="_blank"><i class="ai ai-arxiv"></i> arxiv</a> | <a href="https://youtu.be/ncoDvWys1g8" target="_blank"><i class="fa fa-youtube"></i> video1</a>, <a href="https://youtu.be/kcjzv2GjIsg" target="_blank"><i class="fa fa-youtube"></i> video2</a>, <a href="https://youtu.be/ZYWOdgeGmjQ" target="_blank"><i class="fa fa-youtube"></i> video3</a></p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p>2017</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">L. Furieri, <u>T. Stastny</u>, L. Marconi, R. Siegwart, and I. Gilitschenski. &quot;<b>Gone with the Wind: Nonlinear Guidance for Small Fixed-wing Aircraft in Arbitrarily Strong Windfields</b>&quot;. <em>American Control Conference (ACC)</em>. <a href="http://a2c2.org/awards/o-hugo-schuck-best-paper-award" target="_blank"><b>Best Paper Award.</b></a> | <a href="https://arxiv.org/abs/1609.07577" target="_blank"><i class="ai ai-arxiv"></i> arxiv</a></p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p>2017</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">S. Verling, <u>T. Stastny</u>, G. Bättig, K. Alexis, and R. Siegwart. &quot;<b>Model-based Transition Optimization for a VTOL Tailsitter</b>&quot;. <em>IEEE International Conference on Robotics and Automation (ICRA)</em>. | <a href="https://ieeexplore.ieee.org/document/7989454" target="_blank">publisher</a></p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p>2017</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Y. Demitri, S. Verling, <u>T. Stastny</u>, A. Melzer, and R. Siegwart. &quot;<b>Model-based Wind Estimation for a Hovering VTOL Tailsitter UAV</b>&quot;. <em>IEEE International Conference on Robotics and Automation (ICRA)</em>. | <a href="https://ieeexplore.ieee.org/document/7989455" target="_blank">publisher</a></p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p>2017</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight"><u>T. Stastny</u>, A. Dash, and R. Siegwart. &quot;<b>Nonlinear MPC for Fixed-wing UAV Trajectory Tracking: Implementation and Flight Experiments</b>&quot;. <em>AIAA Guidance, Navigation, and Control (GNC) Conference</em>. | <a href="https://arc.aiaa.org/doi/10.2514/6.2017-1512" target="_blank">publisher</a></p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p>2016</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">P. Oettershagen, A. Melzer, T. Mantel, K. Rudin, <u>T. Stastny</u>, B. Wawrzacz, T. Hinzmann, K. Alexis, and R. Siegwart. &quot;<b>Perpetual Flight with a Small Solar-powered UAV: Flight Results, Performance Analysis and Model Validation</b>&quot;. <em>IEEE Aerospace Conference</em>. | <a href="https://ieeexplore.ieee.org/document/7500855" target="_blank">publisher</a></p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr id="paper-multiaircraft1">
+              <td style="vertical-align:top">
+                <p>2016</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">T. Hinzmann, <u>T. Stastny</u>, G. Conte, P. Doherty, P. Rudol, M. Wzorek, I. Gilitschenski, E. Galceran, and R. Siegwart. &quot;<b>Collaborative 3D Reconstruction Using Heterogeneous UAVs: System and Experiments</b>&quot;. <em>International Symposium on Experimental Robotics (ISER)</em>. | <a href="https://link.springer.com/chapter/10.1007/978-3-319-50115-4_5" target="_blank">publisher</a></p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr id="paper-multiaircraft2">
+              <td style="vertical-align:top">
+                <p>2016</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">P. Doherty, J. Kvarnstr&ouml;m, P. Rudol, M. Wzorek, G. Conte, C. Berger, T. Hinzmann, and <u>T. Stastny</u>. &quot;<b>Collaborative Framework for 3D Mapping Using Unmanned Aerial Vehicles</b>&quot;. <em>International Conference on Principles and Practice of Multi-Agent Systems</em>. | <a href="https://link.springer.com/chapter/10.1007/978-3-319-44832-9_7" target="_blank">publisher</a></p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p>2015</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">P. Oettershagen, <u>T. Stastny</u>, T. Mantel, A. Melzer, K. Rudin, P. Gohl, G. Agamennoni, K. Alexis, and R. Siegwart. &quot;<b>Long-Endurance Sensing and Mapping using a Hand-Launchable Solar-Powered UAV</b>&quot;. <em>Field and Service Robotics (FSR)</em>. | <a href="http://fsr.utias.utoronto.ca/submissions/FSR_2015_submission_49.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> pdf</a></p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p>2015</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">A. Vempati, G. Agamennoni, <u>T. Stastny</u>, and R. Siegwart. &quot;<b>Victim Detection from a Fixed-Wing UAV: Experimental Results</b>&quot;. <em>International Symposium on Visual Computing (ISVC)</em>. | <a href="https://link.springer.com/chapter/10.1007/978-3-319-27857-5_39" target="_blank">publisher</a></p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p>2015</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight"><u>T. Stastny</u>, G. Garcia, and S. Keshmiri. &quot;<b>Robust Three-Dimensional Collision Avoidance for Fixed-Wing Unmanned Aerial Systems</b>&quot;. <em>AIAA Guidance, Navigation, and Control (GNC) Conference</em>. | <a href="https://arc.aiaa.org/doi/abs/10.2514/6.2015-1988" target="_blank">publisher</a> | <a href="vid/Robust3D-1.webm" target="_blank"><i class="fa fa-film"></i> video</a></p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p>2013</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight"><u>T. Stastny</u>, R. Lykins, and S. Keshmiri. &quot;<b>Nonlinear Parameter Estimation of Unmanned Aerial Vehicles in Wind Shear Using Artificial Neural Networks</b>&quot;. <em>AIAA Guidance, Navigation, and Control (GNC) Conference</em>. | <a href="https://arc.aiaa.org/doi/abs/10.2514/6.2013-4768" target="_blank">publisher</a></p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p>2012</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">J. Sebes, W. Vanskike, M. Williams, S. McCandless, <u>T. Stastny</u>, G. Worden, N. Brunkhorst. &quot;<b>Flight Testing and Evaluation of the Structural Response to Flight Loads of a Small Scale Unmanned Aerial System</b>&quot;. <em>AIAA Infotech@ Aerospace</em>. | <a href="https://arc.aiaa.org/doi/10.2514/6.2012-2498" target="_blank">publisher</a></p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p>2011</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">W. Vanskike, M. Williams,<u>T. Stastny</u>, A. Ghate, S. McCandless, and T. Peckman. &quot;<b>Hawkeye UAV Dynamic Analysis</b>&quot;. <em>AIAA Modeling and Simulation Technologies Conference</em>. | <a href="https://arc.aiaa.org/doi/10.2514/6.2011-6520" target="_blank">publisher</a></p>
+              </td>
+            </tr>
+
+          </table>
+
+          <!-- MAGAZINE ARTICLES -->
+
+          <hr />
+          <h4>Magazine Articles</h4>
+
+          <table class="table-margin" style="width:100%;"><col style="width:7%;"><col style="width:90%;">
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p>2013</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight"><u>T. Stastny</u>. &quot;<b>Mars Exploration? Unleash the Swarms!</b>&quot;. <em>Ruimtevaart, Netherlands Space Society (NVR)</em>. | <a href="https://www.ruimtevaart-nvr.nl/wp-content/uploads/nvr_2013_1.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> pdf</a></p>
+              </td>
+            </tr>
+
+          </table>
+
+          <!-- PATENTS -->
+
+          <hr />
+          <h4>Patents</h4>
+
+          <table class="table-margin" style="width:100%;"><col style="width:7%;"><col style="width:90%;">
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p>2013</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">M. Arigoni, R. Simpson, S. Fuhrer, P. Beardsley, D. Mammolo, M. Burri, M. Bischoff, <u>T. Stastny</u>, L. Rodgers, D. Krummenacher, and
+                R. Siegwart. &quot;<b>Vehicles Configured For Navigating Surface Transitions</b>&quot;. <em>US Patent 10,464,620</em>.</p>
+              </td>
+            </tr>
+
+          </table>
+
       </div>
     </div>
   </section>
@@ -162,7 +592,13 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2>Teaching &amp; Supervision</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+          <p><b>Under construction.</b> In the meantime.. enjoy the nice Dipper video below!</p>
+
+          <!-- Next entry -->
+          <hr />
+          <h4>Dipper: Aerial-Aquatic Swept-Wing UAV</h4>
+          <p class="tight">I coached a team of very talented Bachelors students in the year-long development of a flying, diving, swimming, and re-emerging, swept-wing aerial robot (more info <a href="https://dipper.ethz.ch/" target="_blank">here</a>). Several of the team members further expanded on this work enabling us to publish a paper on variable sweep attitude control, see <a class="js-scroll-trigger" href="#paper-varsweep">paper</a>.</p>
+          <div class="video-container"><iframe class="video" src="https://www.youtube.com/embed/q_9tSHTW1xE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         </div>
       </div>
     </div>
