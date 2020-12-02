@@ -33,6 +33,7 @@
 
   <!-- Custom styles for this template -->
   <link href="https://tstastny.github.io/css/scrolling-nav.css" rel="stylesheet">
+  <!-- <link href="css/scrolling-nav.css" rel="stylesheet"> -->
 
 </head>
 
@@ -136,6 +137,8 @@
               <td style="vertical-align:top">  <div class="video-container"><iframe class="video" src="https://www.youtube.com/embed/ZYWOdgeGmjQ" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></td>
             </tr>
           </table>
+
+          <!-- make section for VTOL Tailsitters... fault tolerance video: https://www.youtube.com/embed/tmJQ2r2AOwk -->
 
           <!-- Next entry -->
           <hr />
@@ -242,7 +245,7 @@
           <table class="table-margin" style="width:100%;"><col style="width:50px;"><col>
 
             <!-- Next entry -->
-            <tr>
+            <tr id="paper-malyuta2020">
               <td style="vertical-align:top">
                 <p>2020</p>
               </td>
@@ -352,7 +355,7 @@
           <table class="table-margin" style="width:100%;"><col style="width:50px;"><col>
 
             <!-- Next entry -->
-            <tr>
+            <tr id="paper-olsson2021">
               <td style="vertical-align:top">
                 <p>2021</p>
               </td>
@@ -362,7 +365,7 @@
             </tr>
 
             <!-- Next entry -->
-            <tr  id="paper-varsweep">
+            <tr id="paper-varsweep">
               <td style="vertical-align:top">
                 <p>2020</p>
               </td>
@@ -372,7 +375,7 @@
             </tr>
 
             <!-- Next entry -->
-            <tr  id="paper-windy2019">
+            <tr id="paper-windy2019">
               <td style="vertical-align:top">
                 <p>2019</p>
               </td>
@@ -382,7 +385,7 @@
             </tr>
 
             <!-- Next entry -->
-            <tr>
+            <tr id="paper-hentzen2019">
               <td style="vertical-align:top">
                 <p>2019</p>
               </td>
@@ -392,7 +395,7 @@
             </tr>
 
             <!-- Next entry -->
-            <tr>
+            <tr id="paper-awe">
               <td style="vertical-align:top">
                 <p>2019</p>
               </td>
@@ -402,17 +405,17 @@
             </tr>
 
             <!-- Next entry -->
-            <tr>
+            <tr id="paper-fuhrer2019">
               <td style="vertical-align:top">
                 <p>2019</p>
               </td>
               <td style="vertical-align:top">
-                <p class="tight">S. Fuhrer, S. Verling, <u>T. Stastny</u>, and R. Siegwart. &quot;<b>Fault-tolerant Flight Control of a VTOL Tailsitter UAV</b>&quot;. <em>IEEE International Conference on Robotics and Automation (ICRA)</em>. | <a href="https://ieeexplore.ieee.org/document/8793467" target="_blank">publisher</a></p>
+                <p class="tight">S. Fuhrer, S. Verling, <u>T. Stastny</u>, and R. Siegwart. &quot;<b>Fault-tolerant Flight Control of a VTOL Tailsitter UAV</b>&quot;. <em>IEEE International Conference on Robotics and Automation (ICRA)</em>. | <a href="https://ieeexplore.ieee.org/document/8793467" target="_blank">publisher</a></p>  | <a href="https://youtu.be/tmJQ2r2AOwk" target="_blank"><i class="fa fa-youtube"></i> video</a></p>
               </td>
             </tr>
 
             <!-- Next entry -->
-            <tr>
+            <tr id="paper-lee2018">
               <td style="vertical-align:top">
                 <p>2018</p>
               </td>
@@ -432,7 +435,7 @@
             </tr>
 
             <!-- Next entry -->
-            <tr>
+            <tr id="paper-furieri2017">
               <td style="vertical-align:top">
                 <p>2017</p>
               </td>
@@ -442,7 +445,7 @@
             </tr>
 
             <!-- Next entry -->
-            <tr>
+            <tr id="paper-tailsittertransopt">
               <td style="vertical-align:top">
                 <p>2017</p>
               </td>
@@ -452,7 +455,7 @@
             </tr>
 
             <!-- Next entry -->
-            <tr>
+            <tr id="paper-demitri2017">
               <td style="vertical-align:top">
                 <p>2017</p>
               </td>
@@ -590,7 +593,7 @@
           <table class="table-margin" style="width:100%;"><col style="width:50px;"><col>
 
             <!-- Next entry -->
-            <tr>
+            <tr id="patent-vertigo">
               <td style="vertical-align:top">
                 <p>2013</p>
               </td>
@@ -610,14 +613,519 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>Teaching &amp; Supervision</h2>
-          <p><b>Under construction.</b> In the meantime.. enjoy the nice Dipper video below!</p>
+          <h2><i class="fa fa-graduation-cap fa-1x"></i> Teaching &amp; Mentorship</h2>
+          <p class="tight"><a class="js-scroll-trigger" href="#teach-proj">Focus Projects</a> | <a class="js-scroll-trigger" href="#teach-theses">Student Theses</a> | <a class="js-scroll-trigger" href="#teach-lectures">Lectures</a></p>
+          <hr />
+          <h3 style="text-align:left" id="teach-proj">Focus Projects</h3>
 
           <!-- Next entry -->
           <hr />
           <h4>Dipper: Aerial-Aquatic Swept-Wing UAV</h4>
           <p class="tight">I coached a team of very talented Bachelors students in the year-long development of a flying, diving, swimming, and re-emerging, swept-wing aerial robot (more info <a href="https://dipper.ethz.ch/" target="_blank">here</a>). Several of the team members further expanded on this work enabling us to publish a paper on variable sweep attitude control, see <a class="js-scroll-trigger" href="#paper-varsweep">paper</a>.</p>
           <div class="video-container"><iframe class="video" src="https://www.youtube.com/embed/q_9tSHTW1xE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+          <!-- Next entry -->
+          <hr />
+          <h4>VertiGo: Wall-Riding Robot</h4>
+          <p class="tight">I supervised two Bachelors students on the maneuver design, control, and estimation for the floor-to-wall transition of the VertiGo robot (more info <a href="https://www.vertigoproject.ch/index.php" target="_blank">here</a>). See resulting <a class="js-scroll-trigger" href="#patent-vertigo">patent</a>.</p>
+          <div class="video-container"><iframe class="video" src="https://www.youtube.com/embed/KRYT2kYbgo4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+          <hr />
+          <h3 style="text-align:left" id="teach-theses">Supervised Student Theses, ETH Z&uuml;rich</h3>
+
+          <!-- Master Theses / / / / / / / / / / / / / / / / / /-->
+          <hr />
+          <h4>Masters Theses</h4>
+
+          <table class="table-margin" style="width:100%;"><col style="width:120px; text-align:right;"><col>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2020</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Gian Heinrich. &quot;<b>Learning to Stall: Using in-air Pressure Data to Identify, Characterize, and Control Fixed-Wing Aircraft Stall</b>&quot;.
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2019</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Dario Panzuto. &quot;<b>Development of a Drone-Released GPS Logging Unit for In Situ Monitoring of Fast-Flowing Glaciers</b>&quot;.
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2019</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Michael Imobersteg. &quot;<b>Autonomous Retraction Control of Rigid Wing Airborne Wind Energy Systems</b>&quot;.
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2019</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Adrian Ruckli. &quot;<b>A Deep Learning-Based Approach to Flexible-Wing Modeling for Wide-Baseline Stereo Vision on Fixed-Wing Unmanned Aerial Vehicles</b>&quot;.
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Autumn 2018</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">David Rohr. &quot;<b>Tiltwing VTOL Flight-Control System</b>&quot;. <a href="#paper-tiltwing"><i class="fa fa-book fa-1x"></i> publication</a>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Autumn 2018</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Manuel Dangel. &quot;<b>Nonlinear Model Predictive Control for Fixed-Wing Airborne Wind Energy</b>&quot;. <a href="#paper-awe"><i class="fa fa-book fa-1x"></i> publication</a>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2018</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Silvan Fuhrer. &quot;<b>Fault-Tolerant Flight Control of a VTOL Tailsitter UAV</b>&quot;. <a href="#paper-fuhrer2019"><i class="fa fa-book fa-1x"></i> publication</a>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2018</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Daniel Hentzen. &quot;<b>Robust Precision Landing for Multirotor UAS</b>&quot;. <a href="#paper-hentzen2019"><i class="fa fa-book fa-1x"></i> publication</a>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2018</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Matthias Epprecht. &quot;<b>Bayesian Optimization Based Automatic Controller Tuning for Fixed-Wing UAVs</b>&quot;.</p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2018</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Fabian Bachmann. &quot;<b>Airflow Sensing and Control for Small Fixed-Wing UAVs</b>&quot;.</p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Autumn 2017</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Adyasha Dash. &quot;<b>Magnetometer Error Sources and Mitigation for Small UAVs</b>&quot;.</p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2017</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Danylo Malyuta. &quot;<b>Guidance, Navigation, Control and Mission Logic for Quadrotor Full-cycle Autonomy</b>&quot;. <a href="#paper-malyuta2020"><i class="fa fa-book fa-1x"></i> publication</a>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2017</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Jongseok Lee. &quot;<b>Towards Autonomous Stratospheric Flight: A Generic Global System Identification Framework for Fixed-Wing Platforms</b>&quot;. <a href="#paper-lee2018"><i class="fa fa-book fa-1x"></i> publication</a>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2017</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Carl Olsson. &quot;<b>Full Envelope System Identification of a VTOL Tailsitter UAV</b>&quot;. <a href="#paper-olsson2021"><i class="fa fa-book fa-1x"></i> publication</a>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Autumn 2016</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Youssef Demitri. &quot;<b>Robust Operation of a Hovering VTOL Tailsitter UAV in Wind</b>&quot;.
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Autumn 2016</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Luca Furieri. &quot;<b>Geometric Versus Model Predictive Control Based Guidance Algorithms for Fixed-Wing UAVs in the Presence of Very Strong Wind Fields</b>&quot;. <a href="#paper-furieri2017"><i class="fa fa-book fa-1x"></i> publication</a>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Autumn 2016</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Pavel Verchersky. &quot;<b>Development of a Comprehensive, Hardware-in-the-loop Simulation Environment for Fixed-wing Unmanned Aircraft</b>&quot;.</p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Autumn 2016</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Nicolas El Hayek. &quot;<b>Ridge Lift Exploitation for Small Unmanned Fixed-Wing Aircraft</b>&quot;.</p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Autumn 2015</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Felix Renaut. &quot;<b>Vision-Based Autonomous Landing Site Detection for Fixed-Wing Unmanned Aerial Vehicles</b>&quot;.</p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Autumn 2014</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Markus Thurnherr. &quot;<b>Model Predictive Control for Fixed-Wing UAVs Using LPV-Models</b>&quot;.</p>
+              </td>
+            </tr>
+
+          </table>
+
+          <!-- Semester Projects / / / / / / / / / / / / / / / / / /-->
+          <hr />
+          <h4>Masters Semester Projects</h4>
+
+          <table class="table-margin" style="width:100%;"><col style="width:120px; text-align:right;"><col>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2020</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Ramon Flammer. &quot;<b>Analysis of the Aerodynamic Effects on Coaxial Rotor Configurations</b>&quot;.</p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2020</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Matthias Studiger. &quot;<b>Model Predictive Longitudinal Cruise Control of a VTOL Tilt-Wing UAV</b>&quot;.</p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2019</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Gian Heinrich. &quot;<b>Optimizing Deep-stall Landing Maneuvers on Small Fixed-wing UAVs</b>&quot;.</p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2019</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Cla Galliard. &quot;<b>Nonlinear Total Energy Control System for Longitudinal Control of an Aircraft</b>&quot;.</p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2019</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Eloi Roset. &quot;<b>Wing Pressure Distribution Measurement for Small Fixed-Wing UAVs</b>&quot;.</p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2019</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Marko Maljkovic. &quot;<b>Online Neural Network Based Model Identification of a Fixed-Wing UAV</b>&quot;.</p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Autumn 2018</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Jasmin Fischli. &quot;<b>Online Neural Network Based System Identification for Fixed-wing UAVs</b>&quot;.</p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2017</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Silvan Fuhrer. &quot;<b>Sampling Based Motion Planning for Fixed-Wing UAV System Identification</b>&quot;.</p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2016</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Youssef Demitri. &quot;<b>Wind Estimation for a Hovering VTOL Tailsitter UAV</b>&quot;. <a href="#paper-demitri2017"><i class="fa fa-book fa-1x"></i> publication</a>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2016</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">L&eacute;onard Schai. &quot;<b>Design, Manufacturing and Calibration of a Miniature Vector Probe for Small, Low Speed, Unmanned Aircraft</b>&quot;.</p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2016</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Adyasha Dash. &quot;<b>High Level Predictive Control of Fixed-Wing UAVs using Low Order System Models</b>&quot;. <a href="#paper-NMPC1"><i class="fa fa-book fa-1x"></i> publication</a>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2016</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Gregory B&auml;ttig. &quot;<b>Transition Optimization for a VTOL Tailsitter</b>&quot;. <a href="#paper-tailsittertransopt"><i class="fa fa-book fa-1x"></i> publication</a>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2016</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Samuel Dobmann. &quot;<b>Design, Modeling, and Control of an Autonomous Underwater Glider</b>&quot;.</p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2015</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Ricardo Zurfluh. &quot;<b>Robust Airspeed Sensing in Harsh Environmental Conditions</b>&quot;.</p>
+              </td>
+            </tr>
+
+          </table>
+
+          <!-- Bachelors Theses / / / / / / / / / / / / / / / / / /-->
+          <hr />
+          <h4>Bachelors Theses</h4>
+
+          <table class="table-margin" style="width:100%;"><col style="width:120px; text-align:right;"><col>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2020</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Severin Laasch. &quot;<b>Impact Compensation on Multicopters using Model Predictive Control</b>&quot;.</p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2019</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Marvin Harms &amp; Noah Kaufmann. &quot;<b>Differential Sweep Attitude Control for Fixed-Wing UAVs</b>&quot;. <a href="#paper-varsweep"><i class="fa fa-book fa-1x"></i> publication</a>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2019</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Friedrich Rockenbauer. &quot;<b>Cross-Validation of Simulation Models and Flight Test Data for Fixed-Wing UAVs</b>&quot;.</p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2018</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Marco Ruggia. &quot;<b>Design and Analysis of Small Scale Angle of Attack Sensors</b>&quot;.</p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2018</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Jonas Peter. &quot;<b>System Identification for an Airborne Wind Energy Aircraft</b>&quot;.</p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2018</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Adrian Schneebeli. &quot;<b>Optimization of the Back-Transition Maneuver for a VTOL UAV</b>&quot;.</p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2018</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Lucas Streichenberg. &quot;<b>Improved Hover Controller for an AWE System</b>&quot;.</p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2017</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Cla Galliard. &quot;<b>Spherical Guidance and Control for an Airborne Wind Energy System</b>&quot;.</p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2017</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Gabriel K&ouml;nig. &quot;<b>Implementation and Validation of the Transition for a VTOL Airborne Wind Energy System</b>&quot;.</p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2015</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">David Krummenacher. &quot;<b>Floor to Wall Transitions for a Wall Racing Robot</b>&quot;.</p>
+              </td>
+            </tr>
+
+            <!-- Next entry -->
+            <tr>
+              <td style="vertical-align:top">
+                <p class="thesisdate">Spring 2015</p>
+              </td>
+              <td style="vertical-align:top">
+                <p class="tight">Michael Arigoni. &quot;<b>Control of a Wall Racing Robot for Agile Ground Maneuvers</b>&quot;.</p>
+              </td>
+            </tr>
+
+          </table>
+
+          <!-- LECTURES / / / / / / / / / / / / / / / / / / / / / / / / / / /-->
+          <hr />
+          <h3 style="text-align:left" id="teach-lectures">Lectures</h3>
+
+          <!-- Next entry -->
+          <hr />
+          <h4>Robot Dynamics, ETH Z&uuml;rich (2015-Present)</h4>
+          <p class="tight">I am a lecturer for the <a href="https://rsl.ethz.ch/education-students/lectures/robotdynamics.html" target="_blank">Robot Dynamics</a> course offered in the ETH Z&uuml;rich Robotics M.Sc. cirriculum. I teach the fundamentals of aerodynamics, flight dynamics, aircraft modeling and control for fixed-wing UAVs.</p>
+
+          <!-- Next entry -->
+          <hr />
+          <h4>Optimal Control, University of Kansas (2013)</h4>
+          <p class="tight">I taught two guest lectures on optimal output feedback control in the Optimal Controls M.Sc. course within the Aerospace Engineering Department at the University of Kansas.</p>
+
+          <!-- Next entry -->
+          <hr />
+          <h4>Introductory Topics in Mathematics / Elementary Statistics, University of Kansas (2010 – 2012)</h4>
+          <p class="tight">I was a teaching assistant for the B.Sc. courses Introductory Topics in Mathematics and Elementary Statistics within the Mathematics Department at the University of Kansas.</p>
+
         </div>
       </div>
     </div>
