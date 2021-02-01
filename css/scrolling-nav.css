@@ -255,6 +255,17 @@ a:hover {
   text-decoration: none;
 }
 
+/* linkedin */
+.fa-linkedin {
+  color: black;
+  /*background: white;
+  box-shadow: 0px 0px 6px black;*/
+}
+.fa-linkedin:hover {
+  color: orange;
+  text-decoration: none;
+}
+
 /* github */
 .fa-github {
   color: black;
